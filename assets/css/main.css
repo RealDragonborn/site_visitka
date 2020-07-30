@@ -1,0 +1,399 @@
+a.active.focus,
+a.active:focus,
+a.focus,
+a:active.focus,
+a:active:focus,
+a:focus,
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus,
+.custom-control-input.active.focus,
+.custom-control-input.active:focus,
+.custom-control-input.focus,
+.custom-control-input:active.focus,
+.custom-control-input:active:focus,
+.custom-control-input:focus
+{
+    outline: 0!important;
+    outline-width: 0!important;
+    outline-style: none!important;
+    outline-color: transparent!important;
+}
+
+body
+{
+    background-color: #000;
+}
+
+nav
+{
+    width: 100%;
+    height: 60px;
+
+    transition: 500ms linear;
+}
+
+
+.nav-link
+{
+    color: #fff;
+}
+.nav-link:hover
+{
+    color: #ea8100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-weight: bold;
+
+    color: #ffa500;
+}
+
+.menu-bg
+{
+    position: absolute;
+
+    width: 100%;
+    height: 60px;
+
+    transition: 500ms linear;
+
+    opacity: 0;
+}
+
+.menu-ul li
+{
+    padding: 10px 15px;
+}
+
+.menu-animate
+{
+    transition: 500ms linear;
+
+    opacity: 1;
+    background-color: #00070a;
+}
+
+.main-card
+{
+    display: flex;
+
+    align-items: center;
+}
+
+.main-card img
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.main-crad-text
+{
+    position: absolute;
+
+    width: 44%;
+    margin-left: 30px;
+
+    color: #ffa500;
+}
+
+.main-crad-text button
+{
+    padding: 7px 30px;
+
+    color: #fff;
+    border: 2px solid #ffa500;
+    background: inherit;
+}
+
+#main-card-first-button
+{
+    margin-right: 10px;
+}
+
+#about_me
+{
+    display: flex;
+
+    margin-top: 100px;
+}
+
+#about_me img
+{
+    width: 650px;
+}
+
+#about_me p
+{
+    color: #fff;
+}
+
+table
+{
+    color: #fff;
+}
+
+td
+{
+    padding: 5px 7px;
+}
+
+.bold-weight-table
+{
+    font-weight: bold;
+
+    color: #ffa500;
+}
+
+.flare-button
+{
+    position: relative;
+
+    overflow: hidden;
+}
+
+.flare-button:before
+{
+    position: absolute;
+    top: 0;
+    left: -150px;
+
+    width: 60px;
+    height: 100%;
+
+    content: '';
+    transform: skewX(-30deg);
+
+    background-color: #fff;
+
+    -webkit-filter: blur(40px);
+            filter: blur(40px);
+}
+
+.flare-button:hover:before,
+.flare-button:focus:before
+{
+    left: calc(100% + 150px);
+
+    transition: 1s;
+}
+
+#my_skills
+{
+    margin-top: 100px;
+    padding-bottom: 30px;
+
+    background-color: #ffa500;
+}
+
+.box-title
+{
+    font-size: 60px;
+    font-weight: bold;
+
+    width: 100%;
+    padding: 50px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000;
+}
+
+.my-card
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    height: 400px;
+    margin-top: 100px;
+
+    border-radius: 14px;
+    background-color: #000;
+
+    align-items: center;
+}
+
+.my-card-img
+{
+    position: absolute;
+    top: -50px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.card-box
+{
+    display: flex;
+
+    margin-bottom: 100px;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.my-card-title h5
+{
+    margin-top: 60px;
+}
+
+
+.my-card-text
+{
+    font-size: 13px;
+
+    padding: 16px;
+
+    color: #fff;
+}
+
+.my-card-footer
+{
+    margin-top: 20px;
+}
+
+.my-card-footer button
+{
+    padding: 5px 15px;
+
+    color: #ffa500;
+    border: 1px solid #ffa500;
+    background: inherit;
+}
+
+#jquery
+{
+    top: -88px;
+
+    width: 200px;
+    height: 150px;
+}
+
+#php
+{
+    top: -40px;
+
+    width: 150px;
+}
+
+.my-yellow-card
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    height: 380px;
+    margin-top: 40px;
+    padding: 20px 15px;
+
+    border-radius: 14px;
+    background-color: #ffa500;
+
+    align-items: center;
+}
+
+#lending-img
+{
+    width: 80px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#vizit-img
+{
+    width: 180px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.my-yellow-card p
+{
+    font-size: 13px;
+    font-weight: bold;
+
+    color: #000;
+}
+
+#verstka-img
+{
+    width: 110px;
+    height: 100px;
+}
+
+#my_project
+{
+    background-color: #ffa500;
+}
+
+.project-item
+{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    height: 300px;
+
+    justify-content: center;
+}
+
+.project-photo
+{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+
+.p-class{
+	font-size: 100px;
+}
+
+/*Спецификации*/
+
+.yellow-color
+{
+    color: #ffa500;
+}
+
+.black-color
+{
+    color: #000;
+}
+
+.text-align-center
+{
+    text-align: center;
+}
+
+.yellow_bg
+{
+    background-color: #ffa500;
+}
+
+.active
+{
+    color: #ffa500;
+}
